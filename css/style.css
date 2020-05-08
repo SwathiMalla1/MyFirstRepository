@@ -1,0 +1,67 @@
+body nav{
+    overflow: hidden;
+    background-color:blue;
+}
+ul{
+    padding: 0px;
+    padding-left: 20px;
+    list-style:none;
+    
+}
+li{
+    line-height:1.6em;
+    margin:10;
+}
+   a {
+        float: left;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+       }
+
+        a:hover {
+        background-color: #ddd;
+        color: black;
+        }
+
+        a.active {
+         background-color: #4CAF50;
+         color: white;
+        }
+        main figure{
+           width: 320px;
+            margin: auto;
+            
+            }
+
+        main aside{
+            border: blue solid;
+            border-radius: 25px;
+        }
+        aside p{
+            text-align: center;
+        }
+        #media video{
+            max-width: 500px;
+            margin: auto;
+            width: 320px;
+
+        }
+        #media embed {
+            max-width: 500px;
+            margin: auto;
+            width: 320px;
+        }
+        #media audio{
+            max-width: 500px;
+            margin: auto;
+            width: 320px;
+        }
+
+        footer{
+            background-color: blue;
+            text-align: center;
+        }
+    
